@@ -45,20 +45,71 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
 }
 
 .bottom{
     position: sticky;
-    height: 130px;
+    height: 100px;
     background-color: black;
+    color: white;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
 }
 
 #myProgressBar{
     width: 80vw;
     
 }   
+
+.songItemContainer{
+    margin-top: 64px;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.songItem img{
+    width: 30px;
+    margin: 0 10px;
+    border-radius: 35px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
